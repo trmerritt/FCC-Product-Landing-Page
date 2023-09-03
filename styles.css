@@ -1,0 +1,156 @@
+/* 02/09/23 Technical Documentation Page using HTML/CSS Portfolio Project*/
+body {
+  font-family: arial, sans-serif;
+  padding: 1vw;
+}
+
+#form-div {
+  border: 3px solid navy;
+  padding: 15px;
+  margin: 20px;
+  background-color: #e9edf0;
+  margin-bottom: 15vh;
+}
+
+h4 {
+  color: navy;;
+  margin-top: 12vh;
+  text-align: center;
+}
+
+input {
+  margin: 1vh;
+}
+
+#submit {
+  background-color: navy;
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+
+footer a:link {
+  color: black;
+}
+
+li:hover {
+  background-color: #0793d9;
+}
+
+a:visited {
+  color:gray;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 4vh;
+  color: #0793d9;
+  padding-right: 3vw;
+}
+
+#header {
+  display: flex;
+  flex-wrap: wrap;
+  border: 4px solid #e9edf0;
+  padding: 2vw;
+  background-color: #e9edf0;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    padding: 3%;
+    list-style: none;
+    border: 1px solid black;
+    background: navy;
+  }
+
+  li a {
+    text-decoration: none;
+  }
+
+  section {
+    padding-top: 7vh;
+  }
+
+  header {
+    color: navy;
+  }
+
+  #vid-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+p {
+  padding-top: 3vh;
+  padding-bottom: 4vh;
+}
+
+header {
+  font-weight: bold;
+}
+
+#header-img {
+  width: 7%;
+  padding-top: 2%;
+  object-fit: cover;
+}
+
+footer {
+  font-size: 2vh;
+  color: navy;
+}
+
+button {
+  background-color: navy;
+  color: white;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  gap: 4vw;
+  flex-wrap: wrap;
+  }
+
+  h2 {
+    color: navy;
+  }
+
+  .containers {
+    width: 25%
+  }
+
+h4 {
+  font-size: 5vh;
+}
+@media only screen and (max-width: 575px) {
+  #container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+    ul {
+    display: flex;
+    flex-wrap: wrap
+  }
+
+    #header {
+    position: sticky;
+    top: 0;
+    z-index: 500;
+    padding-top: 0;
+  }
+}
